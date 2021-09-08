@@ -25,14 +25,16 @@ Implement [Collecting](src/main/java/com/efimchick/ifmo/Collecting.java) methods
 **Important**: Count average values including tasks that a student did not try to solve (with 0 score). See the Printable String Spec example.
 
 #### Printable String spec
-A multiline String containing a formatted table of all results and total values and marks.\
-Headers are required.\
-Column width depends on values lenghts.\
-Sort rows by students last names.\
-Sort columns by task name.\
-Double values formatted to 2 digits after the point.\
-Average mark is simple a mark of average total score.\
-Pay attention to alignment of different columns.
+It is multiline String containing a formatted table of all results and total values and marks.\
+A format of your table should meet the following requirements: 
+ 
+- Headers are required.\
+- Column width depends on values lenghts.\
+- Rows are sorted by students' last names.\
+- Columns are sorted by the names of tasks.\
+- Double values displayed with 2 digits after the decimal point.\
+- Values of the column "Marl" are defined by average total score.\
+- Pay attention to alignment of different columns.            
  
  
 Example:
@@ -45,4 +47,4 @@ Example:
     
     
 ## Extra challenge
-Try to use no cycles and no `if` statements.
+Try not to use no cycles and `if` statements.
