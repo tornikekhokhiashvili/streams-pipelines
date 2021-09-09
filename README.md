@@ -47,4 +47,4 @@ Example:
     
     
 ## Extra challenge
-Try not to use no cycles and `if` statements.
+Avoid using cycles and `if` statements.
