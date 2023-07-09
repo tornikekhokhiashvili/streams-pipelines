@@ -18,4 +18,7 @@ public class CourseResult {
     public Map<String, Integer> getTaskResults() {
         return taskResults;
     }
+    public double getTotalScore() {
+        return taskResults.values().stream().mapToInt(Integer::intValue).sum();
+    }
 }
